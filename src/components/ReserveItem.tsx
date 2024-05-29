@@ -6,11 +6,11 @@ type Props = {
 
 export const ReserveItem = ({ data }: Props) => {
     return(
-        <div className="flex flex-col bg-secondary h-52 rounded-md">
-            <div style={{ backgroundImage: `url(${data.image})`}} className="bg-cover bg-center h-1/2 w-full mb-4 rounded-t-md">
+        <div className="flex flex-col bg-secondary h-64 rounded-xl">
+            <div style={{ backgroundImage: `url(${data.image})`}} className="bg-cover bg-center h-1/2 w-full mb-4 rounded-t-xl">
             </div>
 
-            <div className="pl-4 pr-4 pb-4">
+            <div className="pl-4 pr-4 pb-20">
                 <h5 className="text-lg font-bold">Reserva {data.id}</h5>
 
                 <ul>
